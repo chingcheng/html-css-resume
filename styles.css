@@ -31,3 +31,12 @@ h1 {
 .links ul {
     padding: 0;
 }
+
+.sections {
+    display: inline-block;
+    
+}
+
+h2 {
+    font-weight: 300;
+}
