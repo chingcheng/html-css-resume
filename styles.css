@@ -1,9 +1,11 @@
 body {
     font-family: "Inter", sans-serif;
+    max-width: 3000px;
+    padding: 32px;
 }
 
 .navbar {
-    margin: 32px
+    margin: 32px;
 }
 
 h1 {
@@ -32,11 +34,62 @@ h1 {
     padding: 0;
 }
 
-.sections {
-    display: inline-block;
-    
+.whole-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 32px;
 }
 
-h2 {
+.left-section {
+    display: inline;
+    width: 40%;
+}
+
+.right-section {
+    display: inline-block;
+    width: 40%;
+}
+
+h2, h3, h4 {
     font-weight: 300;
+}
+
+.circular-image {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.horizontal-line {
+    width: 95%;
+    margin: 10px auto;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 20px 0;
+}
+
+tr {
+    padding: 10px;
+}
+
+.single-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 32px;
+    justify-content: left;
+}
+
+.work-header h2 {
+    margin-bottom: 0;
+}
+
+.single-section li {
+    font-weight: 300;
+}
+
+.work-experience h3 {
+    font-weight: 450;
+    
 }
