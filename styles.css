@@ -178,3 +178,98 @@ footer a {
 .right-footer {
     justify-content: right;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+
+    .navbar {
+        margin: 16px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whole-section {
+        flex-direction: column;
+        margin: 0 16px;
+    }
+
+    .left-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .right-section {
+        padding-top: 20px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .circular-image {
+        width: 50%;
+    }
+
+    .about h3 {
+        margin-top: 20px
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .education img {
+        width: 30%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .projects img {
+        width: 100%;
+    }
+
+    .projects p {
+        font-size: 16px;
+    }
+
+    .bottom-text {
+        position: static;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .whole-footer {
+        flex-direction: column;
+        margin: 16px 0;
+    }
+
+    .right-footer {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .links a {
+        font-size: 16px;
+        margin: 0 10px 0 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2, .tag-line {
+        font-size: 20px;
+    }
+
+    main a {
+        font-size: 18px;
+    }
+
+    h3, h4, .projects p {
+        font-size: 16px;
+    }
+
+}
