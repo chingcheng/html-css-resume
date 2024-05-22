@@ -11,13 +11,13 @@
 </head>
 <body>
     <header class="navbar">
-        <h1>Ching Cheng</h1>
-        <nav class="links">
+        <h1 class="left-section">Ching Cheng</h1>
+        <nav class="links right-section">
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#more">More</a></li>
             </ul>
@@ -28,8 +28,7 @@
         <div class="left-section">
             <p class="tag-line">
                 Hello, <br>
-                I am Ching Cheng, <br>
-                a full-stack developer
+                I am Ching!
             </p>
             <img class="circular-image" src="images/me.jpg"
             alt="A close up of Ching, holding a black lab puppy">
@@ -45,23 +44,19 @@
                 </a>
                 </h3>
             <p>
-                Hi, I'm Ching! I am a software engineer who
-                is passionate about debugging code, user
-                experience, and accessibility. My passion
-                for software engineering stems from my
-                teaching background in public education and
-                experience in a technology focused school.
-                 I am currently raising a black lab puppy
-                 for Guide Dogs for the Blind, where my
-                 drive for accessibility comes from.
-                 When I'm not at my desk, I'm probably
-                 eating some good food, drinking boba,
-                 working on a Studio Ghibli puzzle,
-                 or hanging out with my puppy, Guava.
-            </p>
+                I am passionate about using technology to create inclusive and positive impacts,
+                inspired by my time as a classroom teacher. With a deep understanding of
+                accessibility challenges, I bring a unique perspective to Niantic
+                and am committed to building inclusive user experiences. I excel in
+                collaborating with interdisciplinary teams, fostering communication,
+                and driving projects forward. I enjoy the collaborative process where
+                diverse perspectives come together to solve problems. Joining Niantic
+                is an exciting chance to combine my skills with my commitment to accessibility.
+                I believe my background, skills, and commitment to making a difference fit well
+                with Niantic's mission, and I am eager to contribute to the company's endeavors.            </p>
         </div>
     </div>
-    <hr class="horizontal-line">
+    <hr class="hr-line">
     <div id="education" class="whole-section">
     <h2>Education</h2>
     </div>
@@ -70,9 +65,11 @@
             <img
             src="images/hackreactor.png"
             alt="Hack Reactor's logo and name">
+            <hr class="hr-spacer-education">
             <img
             src="images/stanford.png"
             alt="Stanford's logo and name">
+            <hr class="hr-spacer-education">
             <img
             src="images/sjsu.png"
             alt="San Jose State's logo and name">
@@ -82,25 +79,39 @@
                 <table>
                     <tr>
                         <td>Hack Reactor</td>
-                        <td>Advanced Software Engineering Certificate</td>
                         <td>2023</td>
+                        <td>
+                            Advanced Software Engineering
+                            Certificate: <br>
+                            <p>19-week Software Engineer
+                                Bootcamp with JavaScript and Python
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>Stanford University</td>
-                        <td>M.A. in Education</td>
                         <td>2017</td>
+                        <td>M.A. in Education
+                            <p>Stanford Teacher Education Program,<br>
+                                CA Multiple Subject Teaching Credential
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>San Jose State University</td>
-                        <td>B.A. in Child and Adolescent
-                            Development</td>
                         <td>2015</td>
+                        <td>B.A. in Child and Adolescent
+                            Development
+                            <p>Strong foundations in child and adolescent
+                                development, theory and research
+                            </p>
+                        </td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
-    <hr class="horizontal-line">
+    <hr class="hr-line">
     <div id="work" class="whole-section">
         <h2>Work</h2>
     </div>
@@ -141,6 +152,7 @@
             </ul>
         </div>
     </div>
+    <hr class="hr-spacer">
     <div id="work" class="whole-section">
         <div class="left-section work-header">
             <h3>Sunnyvale School District | August 2017 - June 2022</h3>
@@ -172,10 +184,12 @@
             </ul>
         </div>
     </div>
-    <hr class="horizontal-line">
+    <hr class="hr-line">
     <div id="projects" class="whole-section projects">
-        <div class="left-section">
         <h2>Projects</h2>
+    </div>
+    <div class="whole-section projects">
+        <div class="left-section">
         <img
             src="images/munch.png"
             alt="a screenshot of Munch">
@@ -193,9 +207,37 @@
                 their dining experiences through photos and reviews of the
                 restaurants they visit.
             </p>
+            <div class="bottom-text">
+                React, FastAPI, Python, HTML, CSS, PostgreSQL, Docker, Git, CI/CD
+            </div>
         </div>
     </div>
-    <hr class="horizontal-line">
+    <hr class="hr-spacer">
+    <div class="whole-section projects">
+        <div class="left-section">
+        <img
+            src="images/swift.png"
+            alt="A webpage named Swift, there is a logo in the middle, a description
+            below that of Swift, and three columns with pictures of cars and descriptions.
+            The color scheme of the website is white and beige.">
+        </div>
+        <div class="right-section">
+            <h3>
+            <a
+                href="https://gitlab.com/mschingcheng/swift">
+                View Gitlab ->
+            </a>
+            </h3>
+            <p>
+                Swift is a car management tool for car dealerships to manage their
+                inventory, service, and sales departments.
+            </p>
+            <div class="bottom-text">
+                React, Django, JavaScript, Python, Bootstrap, PostgreSQL, Docker, Git
+            </div>
+        </div>
+    </div>
+    <hr class="hr-line">
     <div id="skills" class="whole-section skills">
         <div class="left-section">
         <h2>Skills</h2>
@@ -205,7 +247,8 @@
             <ul>
                 <li>Python</li>
                 <li>JavaScript</li>
-                <li>HTML/CSS</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>Git</li>
             </ul>
         </div>
@@ -215,18 +258,19 @@
                 <li>React</li>
                 <li>FastAPI</li>
                 <li>PostgreSQL</li>
+                <li>Docker</li>
             </ul>
         </div>
         </div>
     </div>
-    <hr class="horizontal-line">
+    <hr class="hr-line">
     <div id="more" class="whole-section">
         <h2>More</h2>
     </div>
     <div id="more" class="whole-section puppy">
         <div class="left-section">
             <img src="images/guava.png"
-            alt="A baby black lab sits in a grassy field filled with fall leaves.">
+            alt="Guava, a baby black lab sits in a grassy field filled with fall leaves.">
         </div>
         <div class="right-section">
             <h3>Puppy Raising</h3>
@@ -235,8 +279,8 @@
                 Guava is the first puppy I raised starting from the age of 2 months.
                 She was career changed at 18 months, which means she simply decided guide work
                 is not the right path for her and was dropped from the program.
-                I decided to adopt her and she is now a Cheng forever and lives the
-                life of a spoiled pet! Guava and I attend puppy club meetings regularly,
+                I am lucky enough to have adopted her and she is now a
+                Cheng forever! Guava and I attend puppy club meetings regularly,
                 help with puppies and their training, and I plan to raise another puppy
                 in the near future!
             </p>
@@ -247,16 +291,18 @@
     <div id="more" class="whole-section puppy">
         <div class="left-section">
             <img src="images/guava3.png"
-            alt="">
+            alt="Guava, a black lab, sits on a bench and looks back smiling
+            with her mouth open. Behind her is a field of yellow and purple flowers.">
         </div>
         <div class="right-section puppy">
             <h3>Therapy Work</h3>
             <p>
-            I have been training and preparing Guava for her therapy dog
-            certification test with Alliance of Therapy Dogs.
-            Guava enjoys meeting everyone and she also has a calm and
-            sweet demeanor, the perfect temperament for a therapy dog.
-            I am excited to bring Guava to visit hospitals, schools,
+            Since Guava's career change, I have been training her to be certified
+            as a therapy dog with Alliance of Therapy Dogs.
+            Guava enjoys making new friends with everyone she
+            meets and she also has a calm and sweet demeanor,
+            the perfect temperament for a therapy dog.
+            I am excited to spread Guava's joy during visits to hospitals, schools,
             nursing homes, and more to provide comfort and emotional support
             to my community.
             </p>
@@ -264,7 +310,7 @@
                     Alliance of Therapy Dogs -> </a>
         </div>
     </div>
-    <hr class="horizontal-line">
+    <hr class="hr-line">
     </main>
     <footer class="whole-footer">
         <div class="left-footer">

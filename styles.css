@@ -12,11 +12,7 @@ body {
 h1 {
     display: inline-block;
     font-weight: 300;
-    margin: 0 32px 0 0;
-}
-
-.links {
-    display: inline-block;
+    margin: 0;
 }
 
 .links li {
@@ -27,17 +23,18 @@ h1 {
     color: black;
     text-decoration: none;
     font-size: 20px;
-    margin: 0px 10px;
-}
-
-main a {
-    color: #7D61CD;
-    text-decoration: none;
-    font-size: 24px;
+    margin: 0 20px 0 0 ;
 }
 
 .links ul {
     padding: 0;
+}
+
+.tag-line {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 0;
 }
 
 .whole-section {
@@ -53,8 +50,15 @@ main a {
 
 .right-section {
     display: inline-block;
-    width: 40%;
+    width: 50%;
     padding-left: 30px;
+    position: relative;
+}
+
+main a {
+    color: #7D61CD;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 h2 {
@@ -74,9 +78,21 @@ h3, h4 {
     width: 30%;
 }
 
-.horizontal-line {
+.hr-line {
     width: 95%;
-    margin: 15px auto;
+    margin: 50px auto 20px auto;
+}
+
+.hr-spacer {
+    width: 100%;
+    border: none;
+    height: 25px
+}
+
+.hr-spacer-education {
+    width: 100%;
+    border: none;
+    height: .5px;
 }
 
 .education img {
@@ -91,19 +107,8 @@ h3, h4 {
     font-size: 24px;
 }
 
-tr {
-    padding: 10px;
-}
-
 .work-experience h3 {
     font-weight: 300;
-}
-
-.tag-line {
-    margin-bottom: 30px;
-    font-size: 24px;
-    font-weight: 300;
-    margin-top: 0;
 }
 
 .projects img {
@@ -119,8 +124,14 @@ tr {
     margin-top: 8px;
 }
 
-td, tr {
-    padding: 5px 5px 5px 0
+.bottom-text {
+    position: absolute;
+    bottom: 0
+}
+
+td {
+    padding: 5px 15px 5px 0;
+    vertical-align: top;
 }
 
 .list {
